@@ -1,0 +1,30 @@
+main {
+  width: 97%;
+  border: solid darkgray;
+}
+.image {
+  width: 100px;
+  border-radius: 50%;
+}
+.pic_card span {
+  font-size: medium;
+  font-style: italic;
+}
+.pic_card p {
+  text-align: center;
+}
+.pic_card {
+  background-color: lightsteelblue;
+  width: 200px;
+  margin: 10px;
+  border-right: 2px lightgray solid;
+  border-bottom: 2px lightgray solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  overflow: scroll;
+}
