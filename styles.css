@@ -28,3 +28,9 @@ main {
   display: flex;
   overflow: scroll;
 }
+.center_p {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
