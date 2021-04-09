@@ -2,6 +2,15 @@ main {
   width: 97%;
   border: solid darkgray;
 }
+/*position: sticky;*/
+nav {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  background-color: darkgray;
+  justify-content: space-around;
+  z-index: 110;
+}
 .image {
   width: 100px;
   border-radius: 50%;
